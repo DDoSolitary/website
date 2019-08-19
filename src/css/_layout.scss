@@ -102,9 +102,11 @@
         color: #2C3C69;
         line-height: 1.4;
         margin: 0 0 0.35em;
+        word-break: keep-all;
 
         @include media-query($on-palm) {
             font-size: 26px;
+            word-break: inherit;
         }
         span {
             color: #de8216;

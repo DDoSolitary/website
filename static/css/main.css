@@ -619,9 +619,9 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 @media screen and (max-width: 730px) { .hero.tall div.container { max-width: 90%; border-radius: 0; padding: 10px 10px; } }
 
-.hero.tall h1 { font-weight: 300; font-size: 40px; color: #2C3C69; line-height: 1.4; margin: 0 0 0.35em; }
+.hero.tall h1 { font-weight: 300; font-size: 40px; color: #2C3C69; line-height: 1.4; margin: 0 0 0.35em; word-break: keep-all; }
 
-@media screen and (max-width: 730px) { .hero.tall h1 { font-size: 26px; } }
+@media screen and (max-width: 730px) { .hero.tall h1 { font-size: 26px; word-break: inherit; } }
 
 .hero.tall h1 span { color: #de8216; font-weight: bold; }
 
